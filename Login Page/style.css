@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family-Poppins:wght@300;400;500;600;700;800;900&dispaly=swap");
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: "Poppins",sans-serif;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background:url('i.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.login{
+  width:420px;
+  color: white;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  box-shadow:0 0 10px rgba(0, 0, 0, .2);
+  backdrop-filter: blur(20px);
+  border-radius: 10px;
+  padding: 30px 40px;
+}
+.login h1 {
+  text-align: center;
+  font-size: 36px;
+
+}
+.box{
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin:30px 0;
+}
+.box input{
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  border: 2px solid rgba(255, 255,255,.2);
+  border-radius: 40px;
+  font-size: 16px;
+  color: #fff;
+  padding: 20px 45px 20px 20px ;
+}
+.box input:hover{
+  background: transparent;
+  color: #fff;
+  border-color: #fff;
+}
+.box input::placeholder{
+  color: #fff;
+}
+.box i{
+  position:absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+font-size: 20px;
+}
+.user{
+  display: flex;
+  justify-content: space-between;
+font-size: 14.5px;
+margin: -15px 0 15px;
+}
+.user label input{
+  margin-right: 5px;
+  accent-color: #fff;
+  
+}
+.user a{
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+.user a:hover{
+  text-decoration: underline;
+}
+.btn{
+  height: 45px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  border: 2px solid rgba(255, 255,255,.2);
+  border-radius: 40px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  transition: background-color 0.15s, color 0.15s, opacity 0.2s;
+}
+.btn:hover{
+  color: #fff;
+  border-color: #fff;
+  background: #fff;
+  color: black;
+}
+.btn:active{
+ opacity:.9;
+ color: black;
+  
+}
+.register{
+  font-size: 14.5px;
+  margin: 20px 0 15px;
+  text-align: center;
+}
+
+.register a{
+  color: #fff;
+  text-decoration: none;
+font-weight: 600;
+
+}
+.register a:hover{
+  text-decoration: underline;
+}
